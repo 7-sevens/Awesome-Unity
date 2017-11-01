@@ -1,29 +1,34 @@
-/** @class  GameMainScene
-  * @brief  游戏主场景
-  * @author sevens
-  * @date   2015/03/01
-  * @blog   http://www.developer1024.com/
-  */
-
-#ifndef __LOADING_SCENE_H__
-#define __LOADING_SCENE_H__
+//////////////////////////////////////////////////////////////////////////
+//  @class  LoadingScene
+//	@brief	game loading scene
+//	@author sevens
+//	@date   2015-03-01
+//	@blog   http://www.developer1024.com/
+//////////////////////////////////////////////////////////////////////////
+#ifndef LOADING_SCENE_H_
+#define LOADING_SCENE_H_
 
 #include "cocos2d.h"
+
+
 class LoadingScene : public cocos2d::Layer
 {
 public:
 	static cocos2d::Scene* createScene();
-	
+
 	virtual bool init();
 	
 	CREATE_FUNC(LoadingScene);
 
 	/**
-	* 加载声音回调函数
-	* @param[in] dt 
+	* 资源加载回调函数
+	* @param[in] dt
 	* @return void	无返回值
 	*/
-	void loadingCallBack(float dt); 
+	void onLoadingCallBack(float dt);
+
+protected:
+private:
 };
 
-#endif // __LOADING_SCENE_H__
+#endif // LOADING_SCENE_H_
