@@ -1,6 +1,5 @@
 ## Repositorie Describe
 
->
 >- Repositorie:  Cocos Games Demo
 >
 >- Brief: some games demo based on cocos game engine
@@ -14,11 +13,11 @@ game 2048 based on cocos2dx-3.8
 ---
 
 ### 2.【FlappyBird】
-game 2048 based on cocos2dx-3.8
+game FlappyBird based on cocos2dx-3.8
 
 ---
 
 ### 3.【TimberMan】
-game 2048 based on cocos2dx-3.8
+game TimberMan based on cocos2dx-3.8
 
 ---
